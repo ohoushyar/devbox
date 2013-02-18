@@ -5,5 +5,5 @@ A devbox template using vagrant and chef.
 
 To start:
  * Install Vagrant
- * Colne the repo
+ * Clone the repo
  * Run "vagrant up"
