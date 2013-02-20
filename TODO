@@ -1,0 +1,13 @@
+- add roles:
+	- perl
+		- perl-catalyst
+		- perl-mojo
+		- perl dancer
+	- ruby
+		- ruby-on-rails
+	- c
+	- c++
+	- haskel
+	- phyton
+		- phyton-jango
+	
