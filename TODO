@@ -2,7 +2,7 @@
 	- perl
 		- perl-catalyst
 		- perl-mojo
-		- perl dancer
+		- perl-dancer
 	- ruby
 		- ruby-on-rails
 	- c
@@ -10,4 +10,18 @@
 	- haskel
 	- phyton
 		- phyton-jango
+
+- add a devbox script
+	- options:
+		- init		: to let you choose from different role
+			- Generate Vagrantfile using Vagrantfile.tt: Vagrantfile.<role>
+			- Create a symlink (Vagrantfile) to generated file
+		- switch	: to let you switch to another role
+			- Generate Vagrantfile.<role> if not exists
+			- Point Vagrantfile to generated file
+
+- add Vagrantfile.tt
+	Vagrantfile template. Would use by devbox script.
+
+		
 	
