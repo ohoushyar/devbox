@@ -1,15 +1,17 @@
+
+# for development
+include_recipe 'git'
+include_recipe 'vim'
+include_recipe 'screen'
+include_recipe 'ack'
+include_recipe 'htop'
+
 execute "apt-get-update" do
   command "apt-get update"
   ignore_failure true
 end
 
-# for development
-package 'vim'
-package 'git'
-package 'screen'
 package 'perl-doc'
-package 'ack-grep'
-package 'htop'
 
 package 'libssl-dev'
 
