@@ -1,6 +1,7 @@
 include_recipe "perl"
 #include_recipe "perlbrew"
 
+cpan_module 'Modern::Perl'
 cpan_module 'Perl::Tidy'
 cpan_module 'Perl::Critic'
 cpan_module 'YAML'
@@ -10,12 +11,15 @@ cpan_module 'Data::Printer'
 cpan_module 'DDP'
 cpan_module 'IO::Handle'
 
+cpan_module 'Devel::NYTProf'
+
 cpan_module 'Scalar::Util'
 cpan_module 'List::Util'
 cpan_module 'List::MoreUtils'
 
 cpan_module 'Test::More'
 cpan_module 'Test::Most'
+cpan_module 'Test::Deep'
 cpan_module 'Test::Exception'
 
 cpan_module 'Moose'
