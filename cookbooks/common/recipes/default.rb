@@ -2,6 +2,7 @@
 # for development
 include_recipe 'git'
 include_recipe 'vim'
+include_recipe 'emacs'
 include_recipe 'screen'
 include_recipe 'ack'
 include_recipe 'htop'
