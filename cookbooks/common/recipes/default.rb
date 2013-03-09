@@ -6,14 +6,14 @@ include_recipe 'screen'
 include_recipe 'ack'
 include_recipe 'htop'
 
-execute "apt-get-update" do
-  command "apt-get update"
-  ignore_failure true
-end
+# execute "apt-get-update" do
+#   command "apt-get update"
+#   ignore_failure true
+# end
 
 package 'perl-doc'
-
 package 'libssl-dev'
 
+include_recipe 'dotfiles'
 
 
