@@ -73,8 +73,8 @@ Vagrant::Config.run do |config|
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
 
-     # Your dotfiles git repository url
-     chef.json = { :dotfiles_git_repository_url => 'https://github.com/ohoushyar/omid-home' }
+    # Your dotfiles git repository url
+    chef.json = { :dotfiles_git_repository_url => 'https://github.com/ohoushyar/omid-home' }
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,

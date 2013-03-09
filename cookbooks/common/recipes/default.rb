@@ -14,6 +14,7 @@ include_recipe 'htop'
 package 'perl-doc'
 package 'libssl-dev'
 
-include_recipe 'dotfiles'
-
+if node['dotfiles_git_repository_url']
+    include_recipe 'dotfiles'
+end
 
