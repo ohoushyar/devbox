@@ -74,7 +74,7 @@ Vagrant::Config.run do |config|
   #   chef.json = { :mysql_password => "foo" }
 
     # Your dotfiles git repository url
-    chef.json = { :dotfiles_git_repository_url => 'https://github.com/ohoushyar/omid-home' }
+    #chef.json = { :dotfiles_git_repository_url => 'https://github.com/foo/bar' }
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
