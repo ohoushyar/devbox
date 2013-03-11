@@ -6,6 +6,7 @@ include_recipe 'emacs'
 include_recipe 'screen'
 include_recipe 'ack'
 include_recipe 'htop'
+include_recipe 'build-essential'
 
 # execute "apt-get-update" do
 #   command "apt-get update"
