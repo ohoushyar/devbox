@@ -8,10 +8,10 @@ include_recipe 'ack'
 include_recipe 'htop'
 include_recipe 'build-essential'
 
-# execute "apt-get-update" do
-#   command "apt-get update"
-#   ignore_failure true
-# end
+execute "apt-get-update" do
+  command "apt-get update"
+  ignore_failure true
+end
 
 package 'perl-doc'
 package 'libssl-dev'
