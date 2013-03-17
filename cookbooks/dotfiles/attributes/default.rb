@@ -9,8 +9,15 @@ default['dotfiles']['branch'] = 'master'
 default['dotfiles']['test_file'] = "test -d #{ node['dotfiles']['checkout_path'] }/.bashrc"
 
 default['dotfiles']['files'] = [
-    '.bashrc',
     '.profile',
+    '.bashrc',
+    '.bash_aliases',
+    '.ackrc',
+    '.gitconfig',
+    '.gitignore',
+    '.module-starter',
+    '.perltidyrc',
+    '.screenrc',
 ]
 
 

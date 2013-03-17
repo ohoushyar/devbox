@@ -14,6 +14,7 @@ git node['dotfiles']['checkout_path'] do
 end
 
 node['dotfiles']['files'].each { |file|
+    next unless File.exists?("#{ node['dotfiles']['checkout_path'] }/#{ file }")
     link "#{ node['dotfiles']['home'] }/#{ file }" do
         to "#{ node['dotfiles']['checkout_path'] }/#{ file }"
         owner node['dotfiles']['user']
