@@ -74,7 +74,7 @@ Vagrant::Config.run do |config|
   #   chef.json = { :mysql_password => "foo" }
 
     # Your dotfiles git repository url:
-    # export DOTFILE_GIT_REPO_URL=https://github.org/foo/bar
+    # export DOTFILE_GIT_REPO_URL=https://github.com/foo/bar
     chef.json = { :dotfiles_git_repository_url => ENV['DOTFILE_GIT_REPO_URL'] }
   end
 
